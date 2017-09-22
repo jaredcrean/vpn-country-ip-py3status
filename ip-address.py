@@ -2,7 +2,8 @@
 
 import requests, json
 class Py3status:
-
+    
+    # the ifconfig.co webpage ask that you only reload once every 60 sec.
     def __init__(self):
         self.url = 'http://ifconfig.co/json'
 
